@@ -1,0 +1,32 @@
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+
+  &_intro,
+  &_register{
+    flex: 1;
+  }
+
+  &_register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &_brand{
+    margin-bottom: 30px;
+  }
+
+  &_text{
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+
+  &_link{
+    margin-top: 15px;
+  }
+}
